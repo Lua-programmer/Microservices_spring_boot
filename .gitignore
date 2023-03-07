@@ -1,0 +1,9 @@
+*.idea
+*.mvn
+*/mvnw.cmd
+*HELP.md
+*/build
+*/target
+*.iml
+*/src/main/resources/application-local.yml
+*.env
