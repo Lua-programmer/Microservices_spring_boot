@@ -9,18 +9,47 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>course</artifactId>
+    <artifactId>discovery</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>discovery</name>
+    <description>discovery</description>
+
+    <properties>
+        <java.version>17</java.version>
+        <jaxb.version>2.3.1</jaxb.version>
+        <jaxb-runtime.version>2.3.1</jaxb-runtime.version>
+        <javax-activation.varsion>1.1.1</javax-activation.varsion>
+    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>io.github.luaprogrammer</groupId>
-            <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>${javax-activation.varsion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <classifier>sources</classifier>
+            <version>${jaxb-runtime.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>course</finalName>
+        <finalName>discovery</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -40,4 +69,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
