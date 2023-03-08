@@ -8,14 +8,5 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <artifactId>course</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>io.github.luaprogrammer</groupId>
-            <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <artifactId>core</artifactId>
 </project>

@@ -1,7 +1,7 @@
-package course.endpoint.service;
+package io.github.luaprogrammer.course.endpoint.service;
 
-import course.endpoint.model.Course;
-import course.endpoint.repository.CourseRepository;
+import io.github.luaprogrammer.model.Course;
+import io.github.luaprogrammer.repository.CourseRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

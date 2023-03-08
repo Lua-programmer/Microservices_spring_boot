@@ -1,8 +1,8 @@
-package course.endpoint.controller;
+package io.github.luaprogrammer.course.endpoint.controller;
 
 
-import course.endpoint.model.Course;
-import course.endpoint.service.CourseService;
+import io.github.luaprogrammer.course.endpoint.service.CourseService;
+import io.github.luaprogrammer.model.Course;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatusCode;

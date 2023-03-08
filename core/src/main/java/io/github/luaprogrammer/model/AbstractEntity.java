@@ -1,4 +1,4 @@
-package course.endpoint.model;
+package io.github.luaprogrammer.model;
 
 import java.io.Serializable;
 
